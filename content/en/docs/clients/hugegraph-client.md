@@ -119,6 +119,7 @@ The constraint information that PropertyKey allows to define includes: name, dat
 | asByte()    | Byte       |
 | asBlob()    | Byte[]     |
 | asDouble()  | Double     |
+| asDecimal() | BigDecimal |
 | asFloat()   | Float      |
 | asLong()    | Long       |
 

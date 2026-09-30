@@ -120,6 +120,7 @@ PropertyKey 允许定义的约束信息包括：name、datatype、cardinality、
 | asByte()    | Byte       |
 | asBlob()    | Byte[]     |
 | asDouble()  | Double     |
+| asDecimal() | BigDecimal |
 | asFloat()   | Float      |
 | asLong()    | Long       |
 

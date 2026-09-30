@@ -10,7 +10,7 @@ description: "PropertyKey REST API: Define data types and cardinality constraint
 Params Description:
 
 - name: The name of the property type, required.
-- data_type: The data type of the property type, including: bool, byte, int, long, float, double, text, blob, date, uuid. The default data type is `text` (Represent a `string` type)
+- data_type: The data type of the property type, including: bool, byte, int, long, float, double, decimal, text, blob, date, uuid. The default data type is `text` (Represent a `string` type). `decimal` holds an exact decimal number (Java `BigDecimal`): at most 128 significant digits and a scale of at most 128 in either direction; it is sent and returned as a plain JSON number with every digit, so a client must not parse it as a double
 - cardinality: The cardinality of the property type, including: single, list, set. The default cardinality is `single`.
 
 Request Body Field Description:
