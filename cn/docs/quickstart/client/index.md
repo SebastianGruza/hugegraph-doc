@@ -11,5 +11,5 @@ Java 和 Go Client 位于 HugeGraph Toolchain 仓库，Python Client 位于 Huge
 本节页面：
 
 - [HugeGraph-Java-Client](/cn/docs/quickstart/client/hugegraph-client/)
-- [HugeGraph Python 客户端快速入门](/cn/docs/quickstart/client/hugegraph-client-python/)
+- [HugeGraph Python 客户端快速上手](/cn/docs/quickstart/client/hugegraph-client-python/)
 - [HugeGraph Go 客户端快速入门](/cn/docs/quickstart/client/hugegraph-client-go/)

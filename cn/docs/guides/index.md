@@ -10,8 +10,8 @@ LLMS 索引： [llms.txt](/cn/llms.txt)
 
 本节页面：
 
-- [HugeGraph Architecture Overview](/cn/docs/guides/architectural/)
-- [HugeGraph Design Concepts](/cn/docs/guides/desgin-concept/)
+- [HugeGraph 架构概览](/cn/docs/guides/architectural/)
+- [HugeGraph 设计理念](/cn/docs/guides/desgin-concept/)
 - [HugeGraph Plugin 机制及插件扩展流程](/cn/docs/guides/custom-plugin/)
 - [HugeGraph工具链本地测试指南](/cn/docs/guides/toolchain-local-test/)
 - [Backup Restore](/cn/docs/guides/backup-restore/)

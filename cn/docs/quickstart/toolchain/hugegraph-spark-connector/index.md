@@ -1,4 +1,4 @@
-# HugeGraph-Spark-Connector Quick Start
+# HugeGraph-Spark-Connector 快速上手
 
 LLMS 索引： [llms.txt](/cn/llms.txt)
 

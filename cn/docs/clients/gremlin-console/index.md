@@ -139,3 +139,9 @@ gremlin> client.close(); cluster.close()
 > 注意：在 Client/Server 模式下，所有和 Server 有关的操作都要加上 `:> `，如果不加，表示在 console 本地操作。`:> ` 发送的脚本不带别名，因此只能使用 Server 自身已绑定的名称。
 
 更多关于 Gremlin-Console 的使用，请参考 [Tinkerpop 官网](http://tinkerpop.apache.org/docs/current/reference/)。
+
+---
+
+反链：
+
+- [HugeGraph Examples](/cn/docs/language/hugegraph-example/)

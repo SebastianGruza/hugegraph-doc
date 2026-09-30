@@ -343,6 +343,7 @@ Choose a tool based on the work to complete. Use [Tools](/docs/quickstart/toolch
 
 Backlinks:
 
+- [Documentation](/docs/)
 - [System Introduction](/docs/introduction/)
 - [HugeGraph ToolChain](/docs/quickstart/toolchain/)
 - [Export and migrate with SeaTunnel Source](/docs/quickstart/toolchain/export-migration/hugegraph-seatunnel-source/)

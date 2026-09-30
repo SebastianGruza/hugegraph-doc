@@ -27,7 +27,7 @@ Section pages:
 - [Graph visualization](/docs/quickstart/toolchain/visualization/)
 - [HugeGraph-Hubble Quick Start](/docs/quickstart/toolchain/hugegraph-hubble/): Deploy HugeGraph-Hubble for graph visualization, schema management, data import, and Gremlin or Cypher queries.
 - [Graph import](/docs/quickstart/toolchain/import/)
-- [HugeGraph-Loader Quick Start](/docs/quickstart/toolchain/hugegraph-loader/)
+- [HugeGraph-Loader Quick Start](/docs/quickstart/toolchain/hugegraph-loader/): Bulk import graph data into HugeGraph with Loader from files, HDFS, relational databases, Kafka, and other HugeGraph graphs.
 - [Graph export and migration](/docs/quickstart/toolchain/export-migration/)
 - [Tools Quick Start](/docs/quickstart/toolchain/hugegraph-tools/)
 - [HugeGraph-Spark-Connector Quick Start](/docs/quickstart/toolchain/hugegraph-spark-connector/)

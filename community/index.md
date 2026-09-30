@@ -48,7 +48,7 @@ Current Apache HugeGraph PMC members and Committers, sourced from ASF records. [
 - **Learn and connect** — Using or want to use Apache HugeGraph? Find out more here:
 
 - [Introduction](/docs/introduction/) — increase your understanding of the project.
-- [Quick start](/docs/quickstart/hugegraph/hugegraph-server/) — begin your HugeGraph journey with a simple setup.
+- [Quick Start](/docs/quickstart/hugegraph/hugegraph-server/) — begin your HugeGraph journey with a simple setup.
 - [Download](/docs/download/download/) — get the latest Apache HugeGraph release.
 - [Configuration](/docs/config/) — learn how to configure HugeGraph for your use case.
 - [WeChat](https://github.com/apache/hugegraph#community) — follow the community and get the latest news.

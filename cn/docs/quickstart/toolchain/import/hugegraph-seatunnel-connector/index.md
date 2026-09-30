@@ -343,6 +343,7 @@ HugeGraph Sink 是 **at-least-once（至少一次）** 写入，故障恢复可�
 
 反链：
 
+- [Documentation](/cn/docs/)
 - [系统介绍](/cn/docs/introduction/)
 - [HugeGraph 工具链](/cn/docs/quickstart/toolchain/)
 - [使用 SeaTunnel Source 导出/迁移图数据](/cn/docs/quickstart/toolchain/export-migration/hugegraph-seatunnel-source/)

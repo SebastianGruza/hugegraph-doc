@@ -139,3 +139,9 @@ gremlin> client.close(); cluster.close()
 > NOTE: In Client/Server mode, all operations related to the Server should be prefixed with `:> `. If not added, it indicates local console operations. A `:> ` script carries no alias, so it can only use names the Server itself has bound.
 
 For more information on the use of Gremlin-Console, please refer to [Tinkerpop Official Website](http://tinkerpop.apache.org/docs/current/reference/)
+
+---
+
+Backlinks:
+
+- [HugeGraph Examples](/docs/language/hugegraph-example/)

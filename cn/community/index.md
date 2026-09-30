@@ -48,7 +48,7 @@ Apache HugeGraph 当前的 PMC 成员与 Committers，数据来自 ASF 记录。
 - **了解与交流** — 正在使用或准备使用 Apache HugeGraph？可以从这里开始：
 
 - [项目介绍](/cn/docs/introduction/) — 了解 Apache HugeGraph 及其核心能力。
-- [快速开始](/cn/docs/quickstart/hugegraph/hugegraph-server/) — 通过简单配置开始 HugeGraph 之旅。
+- [快速上手](/cn/docs/quickstart/hugegraph/hugegraph-server/) — 通过简单配置开始 HugeGraph 之旅。
 - [下载](/cn/docs/download/download/) — 获取最新的 Apache HugeGraph 版本。
 - [配置文档](/cn/docs/config/) — 根据使用场景配置 HugeGraph。
 - [微信公众号](https://github.com/apache/hugegraph#community) — 关注社区并获取最新动态。

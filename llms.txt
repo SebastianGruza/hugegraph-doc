@@ -18,14 +18,14 @@
   - [HugeGraph-LLM](https://hugegraph.apache.org/docs/quickstart/hugegraph-ai/hugegraph-llm/index.md)
   - [Install/Build HugeGraph Server](https://hugegraph.apache.org/docs/quickstart/hugegraph/hugegraph-server/index.md)
   - [Java-Client](https://hugegraph.apache.org/docs/quickstart/client/hugegraph-client/index.md)
-  - [Vermeer: Memory-First Computing Framework](https://hugegraph.apache.org/docs/quickstart/computing/hugegraph-vermeer/index.md)
+  - [Vermeer: Memory-First Computing Framework](https://hugegraph.apache.org/docs/quickstart/computing/hugegraph-vermeer/index.md): Vermeer high-performance in-memory graph computing: start once, execute repeatedly, with 15+ OLAP algorithms, seconds-to-minutes execution, deployment, loading, PageRank, and community detection.
   - [Visual with HugeGraph-Hubble](https://hugegraph.apache.org/docs/quickstart/toolchain/hugegraph-hubble/index.md): Deploy HugeGraph-Hubble for graph visualization, schema management, data import, and Gremlin or Cypher queries.
   - [Analysis with HugeGraph-Computer](https://hugegraph.apache.org/docs/quickstart/computing/hugegraph-computer/index.md)
   - [Export and migrate with SeaTunnel Source](https://hugegraph.apache.org/docs/quickstart/toolchain/export-migration/hugegraph-seatunnel-source/index.md)
   - [HugeGraph-ML](https://hugegraph.apache.org/docs/quickstart/hugegraph-ai/hugegraph-ml/index.md)
   - [Import graph data with SeaTunnel Sink](https://hugegraph.apache.org/docs/quickstart/toolchain/import/hugegraph-seatunnel-connector/index.md)
   - [Install/Build HugeGraph-PD](https://hugegraph.apache.org/docs/quickstart/hugegraph/hugegraph-pd/index.md)
-  - [Load data with HugeGraph-Loader](https://hugegraph.apache.org/docs/quickstart/toolchain/hugegraph-loader/index.md)
+  - [Load data with HugeGraph-Loader](https://hugegraph.apache.org/docs/quickstart/toolchain/hugegraph-loader/index.md): Bulk import graph data into HugeGraph with Loader from files, HDFS, relational databases, Kafka, and other HugeGraph graphs.
   - [Python Client](https://hugegraph.apache.org/docs/quickstart/client/hugegraph-client-python/index.md)
   - [Computer Config Reference](https://hugegraph.apache.org/docs/quickstart/computing/hugegraph-computer-config/index.md)
   - [Go Client](https://hugegraph.apache.org/docs/quickstart/client/hugegraph-client-go/index.md)
@@ -68,7 +68,7 @@
   - [Other](https://hugegraph.apache.org/docs/clients/restful-api/other/index.md): Other REST API: Provide auxiliary functions such as version query, API listing, exception trace switch, IP allowlist and the Arthas agent.
 - [GUIDES](https://hugegraph.apache.org/docs/guides/index.md)
   - [Architecture Overview](https://hugegraph.apache.org/docs/guides/architectural/index.md)
-  - [Design Concepts](https://hugegraph.apache.org/docs/guides/desgin-concept/index.md)
+  - [Design Concepts (legacy)](https://hugegraph.apache.org/docs/guides/desgin-concept/index.md)
   - [HugeGraph Plugin](https://hugegraph.apache.org/docs/guides/custom-plugin/index.md)
   - [Toolchain Local Testing](https://hugegraph.apache.org/docs/guides/toolchain-local-test/index.md)
   - [Backup Restore](https://hugegraph.apache.org/docs/guides/backup-restore/index.md)
