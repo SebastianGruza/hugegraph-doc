@@ -10,7 +10,7 @@ description: "PropertyKey（属性键）REST 接口:定义图中所有属性的�
 Params 说明：
 
 - name：属性类型名称，必填
-- data_type：属性类型数据类型，包括：bool、byte、int、long、float、double、decimal、text、date、uuid、blob，默认 `text` 类型 (代表 string 字符串类型)。`decimal` 为精确十进制数 (Java `BigDecimal`)：最多 128 位有效数字，小数位数 (scale) 绝对值不超过 128；请求和响应中均以带全部数字的 JSON 数字表示，客户端不应按 double 解析
+- data_type：属性类型数据类型，包括：bool、byte、int、long、float、double、decimal、text、date、uuid、blob，默认 `text` 类型 (代表 string 字符串类型)。`decimal` 为精确十进制数 (Java `BigDecimal`)：最多 128 位有效数字，小数位数 (scale) 绝对值不超过 128；请求中可以用 JSON 数字或字符串传入，两种形式都会被精确读取；响应中以字符串返回（例如 `"amount": "12345678901234567890.123456789012345678"`），客户端应使用 `new BigDecimal(String)` 解析，不要按 double 解析
 - cardinality：属性类型基数，包括：single、list、set，默认 `single` (代表单属性值)
 
 请求体字段说明：
