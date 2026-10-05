@@ -120,7 +120,7 @@ PropertyKey 允许定义的约束信息包括：name、datatype、cardinality、
 | asByte()    | Byte       |
 | asBlob()    | Byte[]     |
 | asDouble()  | Double     |
-| asDecimal() | BigDecimal（精确十进制；不可索引，不可作主键/排序键；自包含 apache/hugegraph#3209 与 #771 的版本起可用） |
+| asDecimal() | BigDecimal（精确十进制；不可索引，不可作主键/排序键，写入类型只能是 OLTP 或 OLAP_COMMON；需要包含 apache/hugegraph#3209 的服务端和包含 apache/hugegraph-toolchain#771 的 hugegraph-client） |
 | asFloat()   | Float      |
 | asLong()    | Long       |
 
@@ -151,6 +151,8 @@ PropertyKey 允许定义的约束信息包括：name、datatype、cardinality、
 | OLAP_COMMON    | 不带索引的 OLAP 属性     |
 | OLAP_SECONDARY | 带二级索引的 OLAP 属性   |
 | OLAP_RANGE     | 带范围索引的 OLAP 属性   |
+
+`decimal` 类型的属性只允许 OLTP 或 OLAP_COMMON 写入类型：服务端在创建时拒绝 OLAP_SECONDARY 和 OLAP_RANGE，因为 decimal 不能建索引。
 
 | interface                        | description            |
 |----------------------------------|------------------------|

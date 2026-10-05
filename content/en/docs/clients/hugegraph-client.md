@@ -119,7 +119,7 @@ The constraint information that PropertyKey allows to define includes: name, dat
 | asByte()    | Byte       |
 | asBlob()    | Byte[]     |
 | asDouble()  | Double     |
-| asDecimal() | BigDecimal (exact decimal, not indexable, not a primary/sort key; from the release with apache/hugegraph#3209 and #771) |
+| asDecimal() | BigDecimal (exact decimal, not indexable, not a primary/sort key, write type OLTP or OLAP_COMMON only; needs a server with apache/hugegraph#3209 and a hugegraph-client with apache/hugegraph-toolchain#771) |
 | asFloat()   | Float      |
 | asLong()    | Long       |
 
@@ -150,6 +150,8 @@ The constraint information that PropertyKey allows to define includes: name, dat
 | OLAP_COMMON    | OLAP property without index          |
 | OLAP_SECONDARY | OLAP property with a secondary index |
 | OLAP_RANGE     | OLAP property with a range index     |
+
+A `decimal` property key allows only OLTP or OLAP_COMMON: the server rejects OLAP_SECONDARY and OLAP_RANGE for it at create time, since a decimal cannot be indexed.
 
 | interface                        | description                            |
 |----------------------------------|----------------------------------------|
